@@ -1,0 +1,501 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "717a20834041c043f972021ca10b9b97b920e911"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "aliyun-net-best-practice/1.0.0": {
+        "dependencies": {
+          "aliyun-net-sdk-ccc": "1.0.9",
+          "aliyun-net-sdk-cdn": "3.0.8",
+          "aliyun-net-sdk-core": "1.2.9",
+          "aliyun-net-sdk-ecs": "4.16.4",
+          "aliyun-net-sdk-ram": "3.0.1",
+          "aliyun-net-sdk-rds": "2.3.2",
+          "aliyun-net-sdk-ros": "2.2.8",
+          "aliyun-net-sdk-slb": "3.2.41",
+          "aliyun-net-sdk-vpc": "3.0.4"
+        },
+        "runtime": {
+          "aliyun-net-best-practice.dll": {}
+        }
+      },
+      "aliyun-net-sdk-ccc/1.0.9": {
+        "dependencies": {
+          "aliyun-net-sdk-core": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-ccc.dll": {
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
+          }
+        }
+      },
+      "aliyun-net-sdk-cdn/3.0.8": {
+        "dependencies": {
+          "aliyun-net-sdk-core": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-cdn.dll": {
+            "assemblyVersion": "3.0.8.0",
+            "fileVersion": "3.0.8.0"
+          }
+        }
+      },
+      "aliyun-net-sdk-core/1.2.9": {
+        "dependencies": {
+          "Serilog": "2.8.0",
+          "Serilog.Exceptions": "5.0.0",
+          "Serilog.Sinks.File": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-core.dll": {
+            "assemblyVersion": "1.2.9.0",
+            "fileVersion": "1.2.9.0"
+          }
+        }
+      },
+      "aliyun-net-sdk-ecs/4.16.4": {
+        "dependencies": {
+          "aliyun-net-sdk-core": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-ecs.dll": {
+            "assemblyVersion": "4.16.4.0",
+            "fileVersion": "4.16.4.0"
+          }
+        }
+      },
+      "aliyun-net-sdk-ram/3.0.1": {
+        "dependencies": {
+          "aliyun-net-sdk-core": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-ram.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "aliyun-net-sdk-rds/2.3.2": {
+        "dependencies": {
+          "aliyun-net-sdk-core": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-rds.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
+          }
+        }
+      },
+      "aliyun-net-sdk-ros/2.2.8": {
+        "dependencies": {
+          "aliyun-net-sdk-core": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-ros.dll": {
+            "assemblyVersion": "2.2.8.0",
+            "fileVersion": "2.2.8.0"
+          }
+        }
+      },
+      "aliyun-net-sdk-slb/3.2.41": {
+        "dependencies": {
+          "aliyun-net-sdk-core": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-slb.dll": {
+            "assemblyVersion": "3.2.41.0",
+            "fileVersion": "3.2.41.0"
+          }
+        }
+      },
+      "aliyun-net-sdk-vpc/3.0.4": {
+        "dependencies": {
+          "aliyun-net-sdk-core": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/aliyun-net-sdk-vpc.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        }
+      },
+      "Serilog/2.8.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "Serilog.Exceptions/5.0.0": {
+        "dependencies": {
+          "Serilog": "2.8.0",
+          "System.Reflection.TypeExtensions": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Exceptions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/4.0.0": {
+        "dependencies": {
+          "Serilog": "2.8.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.IO.FileSystem.Primitives": "4.0.1",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Text.Encoding.Extensions": "4.0.11",
+          "System.Threading": "4.3.0",
+          "System.Threading.Timer": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "System.Collections.NonGeneric/4.3.0": {
+        "dependencies": {
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Diagnostics.Debug/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.FileSystem/4.0.1": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.0.1",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.0.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.FileSystem.Primitives/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.TypeExtensions/4.5.1": {},
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {},
+      "System.Runtime.Extensions/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.Handles/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices/4.1.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.0.1"
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Text.Encoding.Extensions/4.0.11": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0"
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Timer/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "aliyun-net-best-practice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "aliyun-net-sdk-ccc/1.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wyl39CSaP99Xr737+xX+ESASlBTXPjgQjH1W8l9T88oU4kcbIPuUF3zqbv1WLM9WTBPvEcssyRwR4TK3oDsTtA==",
+      "path": "aliyun-net-sdk-ccc/1.0.9",
+      "hashPath": "aliyun-net-sdk-ccc.1.0.9.nupkg.sha512"
+    },
+    "aliyun-net-sdk-cdn/3.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zxjP7QbYSACLLtXuNiHkzNFw+vLfb/MhQIkzWUfqQSXYMK5dYfYVNIXh7zfj1PFriQeHwZUT2Vv0Nz4naBvPYg==",
+      "path": "aliyun-net-sdk-cdn/3.0.8",
+      "hashPath": "aliyun-net-sdk-cdn.3.0.8.nupkg.sha512"
+    },
+    "aliyun-net-sdk-core/1.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YAKeD8JECpBzaHbQhT8xHZ7+YLmLX/ozyy9ZNAjLeS3tfG7y8M9tlWgrsLbmjg6JkewtlpLVBDy5EVuA3TBiuA==",
+      "path": "aliyun-net-sdk-core/1.2.9",
+      "hashPath": "aliyun-net-sdk-core.1.2.9.nupkg.sha512"
+    },
+    "aliyun-net-sdk-ecs/4.16.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tAdC7E9aglln+kAI/NJ4gwxSgV6gr5DVZUumEgUa3pxJ90yye1r3G1S8JChPbIwKACkOxP0Sy8nHQFoyOzSfDQ==",
+      "path": "aliyun-net-sdk-ecs/4.16.4",
+      "hashPath": "aliyun-net-sdk-ecs.4.16.4.nupkg.sha512"
+    },
+    "aliyun-net-sdk-ram/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fTh0w9UVUDCihmEGcMQiOUCYm6Fd2R5wpzXf4jhX/r3t0rrfX48lonprC0Oq1lu4CQt9KOKpFiNaDP0V9ebImA==",
+      "path": "aliyun-net-sdk-ram/3.0.1",
+      "hashPath": "aliyun-net-sdk-ram.3.0.1.nupkg.sha512"
+    },
+    "aliyun-net-sdk-rds/2.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A7IfkhWUupHgMBxzXsk2iju8P90atzPgKIIRwLkbRB6tVoFER1QAYWFD1W9HcZIQjGyosB/KmNwO0qKIUJhVVQ==",
+      "path": "aliyun-net-sdk-rds/2.3.2",
+      "hashPath": "aliyun-net-sdk-rds.2.3.2.nupkg.sha512"
+    },
+    "aliyun-net-sdk-ros/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i2u098JeRA0NFkWgpD4gZOCNOF1586HqdJBg7s2Vf6X0gWyGF8fBq+7lnEDHPtkB7k2fmDl8OQqQXUXgzWGhGg==",
+      "path": "aliyun-net-sdk-ros/2.2.8",
+      "hashPath": "aliyun-net-sdk-ros.2.2.8.nupkg.sha512"
+    },
+    "aliyun-net-sdk-slb/3.2.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UP4IknUSiEB2zKP8IkuuymIVcqXlhUBL1Agb88CrguMVpJ08m3I6+rjugP6dibf14JfOEvSeBodpmj7L2cdVZg==",
+      "path": "aliyun-net-sdk-slb/3.2.41",
+      "hashPath": "aliyun-net-sdk-slb.3.2.41.nupkg.sha512"
+    },
+    "aliyun-net-sdk-vpc/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/fbxX+xmLssaFBaSF/kKrXz5adzUjfgi4hBbqsH/K0NnEZriPiGN9DMINDyVXcTsRAT5OwGg9VMa6qM1/XrYtQ==",
+      "path": "aliyun-net-sdk-vpc/3.0.4",
+      "hashPath": "aliyun-net-sdk-vpc.3.0.4.nupkg.sha512"
+    },
+    "Serilog/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
+      "path": "serilog/2.8.0",
+      "hashPath": "serilog.2.8.0.nupkg.sha512"
+    },
+    "Serilog.Exceptions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GwRJ98iAD8Sl6DknYhQcko36EF1s+Gj+6FdZvWkpUv1wSWp47vBHlqTvT1M2BVQz5f8ifGF9RDMHKBYAWZj5dg==",
+      "path": "serilog.exceptions/5.0.0",
+      "hashPath": "serilog.exceptions.5.0.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vBj43RkAbeP1dzoPFR2+LfV5GevDRPDq6265JJBv223lMvT9rfdwe/S/I9ow7aZSLYKfw4qPDw6NW8YwjbDbvg==",
+      "path": "serilog.sinks.file/4.0.0",
+      "hashPath": "serilog.sinks.file.4.0.0.nupkg.sha512"
+    },
+    "System.Collections.NonGeneric/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "path": "system.collections.nongeneric/4.3.0",
+      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Debug/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
+      "path": "system.diagnostics.debug/4.3.0",
+      "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.IO.FileSystem/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IBErlVq5jOggAD69bg1t0pJcHaDbJbWNUZTPI96fkYWzwYbN6D9wRHMULLDd9dHsl7C2YsxXL31LMfPI1SWt8w==",
+      "path": "system.io.filesystem/4.0.1",
+      "hashPath": "system.io.filesystem.4.0.1.nupkg.sha512"
+    },
+    "System.IO.FileSystem.Primitives/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kWkKD203JJKxJeE74p8aF8y4Qc9r9WQx4C0cHzHPrY3fv/L/IhWnyCHaFJ3H1QPOH6A93whlQ2vG5nHlBDvzWQ==",
+      "path": "system.io.filesystem.primitives/4.0.1",
+      "hashPath": "system.io.filesystem.primitives.4.0.1.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fO8GMEkgoKioJ7cglZbhcnBgkCWWn9poS3G2jevS+fuwW9xJXMx7/1kr7dkwOJfo0pWqxLFWVcxlOr+WeK5ipA==",
+      "path": "system.reflection.typeextensions/4.5.1",
+      "hashPath": "system.reflection.typeextensions.4.5.1.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
+      "path": "system.runtime.extensions/4.3.0",
+      "hashPath": "system.runtime.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Handles/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nCJvEKguXEvk2ymk1gqj625vVnlK3/xdGzx0vOKicQkoquaTBJTP13AIYkocSUwHCLNBwUbXTqTWGDxBTWpt7g==",
+      "path": "system.runtime.handles/4.0.1",
+      "hashPath": "system.runtime.handles.4.0.1.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16eu3kjHS633yYdkjwShDHZLRNMKVi/s0bY8ODiqJ2RfMhDMAwxZaUaWVnZ2P71kr/or+X9o/xFWtNqz8ivieQ==",
+      "path": "system.runtime.interopservices/4.1.0",
+      "hashPath": "system.runtime.interopservices.4.1.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.Extensions/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jtbiTDtvfLYgXn8PTfWI+SiBs51rrmO4AAckx4KR6vFK9Wzf6tI8kcRdsYQNwriUeQ1+CtQbM1W4cMbLXnj/OQ==",
+      "path": "system.text.encoding.extensions/4.0.11",
+      "hashPath": "system.text.encoding.extensions.4.0.11.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Timer/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-saGfUV8uqVW6LeURiqxcGhZ24PzuRNaUBtbhVeuUAvky1naH395A/1nY0P2bWvrw/BreRtIB/EzTDkGBpqCwEw==",
+      "path": "system.threading.timer/4.0.1",
+      "hashPath": "system.threading.timer.4.0.1.nupkg.sha512"
+    }
+  }
+}

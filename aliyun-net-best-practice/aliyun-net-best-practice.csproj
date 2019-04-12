@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>aliyun_net_best_practice</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="aliyun-net-sdk-ccc" Version="1.0.9" />
+    <PackageReference Include="aliyun-net-sdk-cdn" Version="3.0.8" />
+    <PackageReference Include="aliyun-net-sdk-core" Version="1.2.9" />
+    <PackageReference Include="aliyun-net-sdk-ecs" Version="4.16.4" />
+    <PackageReference Include="aliyun-net-sdk-ram" Version="3.0.1" />
+    <PackageReference Include="aliyun-net-sdk-rds" Version="2.3.2" />
+    <PackageReference Include="aliyun-net-sdk-ros" Version="2.2.8" />
+    <PackageReference Include="aliyun-net-sdk-slb" Version="3.2.41" />
+    <PackageReference Include="aliyun-net-sdk-vpc" Version="3.0.4" />
+  </ItemGroup>
+
+</Project>

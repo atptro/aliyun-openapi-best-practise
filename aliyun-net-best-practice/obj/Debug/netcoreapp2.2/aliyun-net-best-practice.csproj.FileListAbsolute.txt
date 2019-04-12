@@ -1,0 +1,11 @@
+D:\Working\aliyun-net-best-practice\obj\Debug\netcoreapp2.2\aliyun-net-best-practice.csprojAssemblyReference.cache
+D:\Working\aliyun-net-best-practice\obj\Debug\netcoreapp2.2\aliyun-net-best-practice.csproj.CoreCompileInputs.cache
+D:\Working\aliyun-net-best-practice\obj\Debug\netcoreapp2.2\aliyun-net-best-practice.AssemblyInfoInputs.cache
+D:\Working\aliyun-net-best-practice\obj\Debug\netcoreapp2.2\aliyun-net-best-practice.AssemblyInfo.cs
+D:\Working\aliyun-net-best-practice\bin\Debug\netcoreapp2.2\aliyun-net-best-practice.deps.json
+D:\Working\aliyun-net-best-practice\bin\Debug\netcoreapp2.2\aliyun-net-best-practice.runtimeconfig.json
+D:\Working\aliyun-net-best-practice\bin\Debug\netcoreapp2.2\aliyun-net-best-practice.runtimeconfig.dev.json
+D:\Working\aliyun-net-best-practice\bin\Debug\netcoreapp2.2\aliyun-net-best-practice.dll
+D:\Working\aliyun-net-best-practice\bin\Debug\netcoreapp2.2\aliyun-net-best-practice.pdb
+D:\Working\aliyun-net-best-practice\obj\Debug\netcoreapp2.2\aliyun-net-best-practice.dll
+D:\Working\aliyun-net-best-practice\obj\Debug\netcoreapp2.2\aliyun-net-best-practice.pdb
