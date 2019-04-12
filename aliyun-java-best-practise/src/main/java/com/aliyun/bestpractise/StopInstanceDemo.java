@@ -7,6 +7,9 @@ import com.aliyuncs.ecs.model.v20140526.StopInstanceResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 
+/**
+ * 控制ECS服务器的停止
+ */
 public class StopInstanceDemo {
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile(

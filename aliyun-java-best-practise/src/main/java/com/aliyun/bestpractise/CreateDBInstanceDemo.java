@@ -7,6 +7,9 @@ import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.rds.model.v20140815.*;
 
+/**
+ * 使用API创建RDS实例
+ */
 public class CreateDBInstanceDemo {
 
     public static void main(String[] args) {

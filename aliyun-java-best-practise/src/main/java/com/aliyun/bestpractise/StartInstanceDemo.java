@@ -7,6 +7,9 @@ import com.aliyuncs.ecs.model.v20140526.StartInstanceResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 
+/**
+ * 控制ECS服务器的启动
+ */
 public class StartInstanceDemo {
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile(

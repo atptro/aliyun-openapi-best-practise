@@ -7,6 +7,9 @@ import com.aliyuncs.ecs.model.v20140526.DescribeInstancesResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 
+/**
+ * 监控ECS机器的状态
+ */
 public class DescribeInstancesDemo {
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile(

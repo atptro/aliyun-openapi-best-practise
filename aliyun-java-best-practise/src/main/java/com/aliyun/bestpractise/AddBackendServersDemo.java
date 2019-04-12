@@ -8,6 +8,9 @@ import com.aliyuncs.profile.DefaultProfile;
 import com.google.gson.Gson;
 import com.aliyuncs.slb.model.v20140515.*;
 
+/**
+ * 使用API为负载均衡(SLB)设置后端服务器
+ */
 public class AddBackendServersDemo {
 
     public static void main(String[] args) {

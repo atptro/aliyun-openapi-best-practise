@@ -7,6 +7,9 @@ import com.aliyuncs.ecs.model.v20140526.CreateDiskResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 
+/**
+ * 为ECS创建数据盘
+ */
 public class CreateDiskDemo {
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile(

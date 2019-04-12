@@ -7,6 +7,9 @@ import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.slb.model.v20140515.*;
 
+/**
+ * 使用API为负载均衡(SLB)设置后端服务器
+ */
 public class CreateLoadBalancerDemo {
 
     public static void main(String[] args) {

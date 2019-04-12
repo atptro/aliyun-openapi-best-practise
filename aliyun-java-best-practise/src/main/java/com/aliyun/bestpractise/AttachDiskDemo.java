@@ -7,6 +7,9 @@ import com.aliyuncs.ecs.model.v20140526.AttachDiskResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 
+/**
+ * 为ECS挂载数据盘
+ */
 public class AttachDiskDemo {
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile(
