@@ -1,27 +1,27 @@
-package com.aliyun.bestpractise;
+package com.aliyun.bestpractise.runinstances;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
-import com.aliyuncs.ecs.model.v20140526.DescribeInstancesRequest;
-import com.aliyuncs.ecs.model.v20140526.DescribeInstancesResponse;
+import com.aliyuncs.ecs.model.v20140526.RunInstancesRequest;
+import com.aliyuncs.ecs.model.v20140526.RunInstancesResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 
 /**
- * 监控ECS机器的状态
+ * 使用API创建ECS服务器
  */
-public class DescribeInstancesDemo {
+public class RunInstancesDemo {
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile(
                 "RegionId",
                 "accessKeyId",
                 "accessKeySecret");
         IAcsClient client = new DefaultAcsClient(profile);
-        DescribeInstancesRequest request = new DescribeInstancesRequest();
-        DescribeInstancesResponse response;
+        RunInstancesRequest request = new RunInstancesRequest();
+        request.setLaunchTemplateId("创建实例的模板ID");
+        RunInstancesResponse response;
         try {
             response = client.getAcsResponse(request);
-            System.out.println(response);
         } catch (ClientException e) {
             e.printStackTrace();
         }

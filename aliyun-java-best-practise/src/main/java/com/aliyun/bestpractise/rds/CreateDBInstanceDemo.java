@@ -1,4 +1,4 @@
-package com.aliyun.bestpractise;
+package com.aliyun.bestpractise.rds;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
@@ -8,19 +8,26 @@ import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.rds.model.v20140815.*;
 
 /**
- * 使用API查看RDS实例
+ * 使用API创建RDS实例
  */
-public class DescribeDBInstanceAttributeDemo {
+public class CreateDBInstanceDemo {
 
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile("<regionId>", "<accessKeyId>", "<accessSecret>");
         IAcsClient client = new DefaultAcsClient(profile);
 
-        DescribeDBInstanceAttributeRequest request = new DescribeDBInstanceAttributeRequest();
-        request.setDBInstanceId("<dBInstanceId>");
+        CreateDBInstanceRequest request = new CreateDBInstanceRequest();
+        request.setPayType("<payType>");
+        request.setSecurityIPList("<securityIPList>");
+        request.setDBInstanceNetType("<dBInstanceNetType>");
+        // your dBInstanceStorage
+        request.setDBInstanceStorage(0);
+        request.setDBInstanceClass("<dBInstanceClass>");
+        request.setEngineVersion("<engineVersion>");
+        request.setEngine("<engine>");
 
         try {
-            DescribeDBInstanceAttributeResponse response = client.getAcsResponse(request);
+            CreateDBInstanceResponse response = client.getAcsResponse(request);
         } catch (ServerException e) {
             e.printStackTrace();
         } catch (ClientException e) {

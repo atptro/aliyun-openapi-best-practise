@@ -1,25 +1,26 @@
-package com.aliyun.bestpractise;
+package com.aliyun.bestpractise.rds;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.profile.DefaultProfile;
-import com.aliyuncs.slb.model.v20140515.*;
+import com.aliyuncs.rds.model.v20140815.*;
 
 /**
- * 使用API为负载均衡(SLB)设置后端服务器
+ * 使用API查看RDS实例
  */
-public class CreateLoadBalancerDemo {
+public class DescribeDBInstanceAttributeDemo {
 
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile("<regionId>", "<accessKeyId>", "<accessSecret>");
         IAcsClient client = new DefaultAcsClient(profile);
 
-        CreateLoadBalancerRequest request = new CreateLoadBalancerRequest();
+        DescribeDBInstanceAttributeRequest request = new DescribeDBInstanceAttributeRequest();
+        request.setDBInstanceId("<dBInstanceId>");
 
         try {
-            CreateLoadBalancerResponse response = client.getAcsResponse(request);
+            DescribeDBInstanceAttributeResponse response = client.getAcsResponse(request);
         } catch (ServerException e) {
             e.printStackTrace();
         } catch (ClientException e) {

@@ -1,29 +1,25 @@
-package com.aliyun.bestpractise;
+package com.aliyun.bestpractise.slb;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.profile.DefaultProfile;
-import com.google.gson.Gson;
 import com.aliyuncs.slb.model.v20140515.*;
 
 /**
  * 使用API为负载均衡(SLB)设置后端服务器
  */
-public class AddBackendServersDemo {
+public class CreateLoadBalancerDemo {
 
     public static void main(String[] args) {
         DefaultProfile profile = DefaultProfile.getProfile("<regionId>", "<accessKeyId>", "<accessSecret>");
         IAcsClient client = new DefaultAcsClient(profile);
 
-        AddBackendServersRequest request = new AddBackendServersRequest();
-        request.setBackendServers("<backendServers>");
-        request.setLoadBalancerId("<loadBalancerId>");
+        CreateLoadBalancerRequest request = new CreateLoadBalancerRequest();
 
         try {
-            AddBackendServersResponse response = client.getAcsResponse(request);
-            System.out.println(new Gson().toJson(response));
+            CreateLoadBalancerResponse response = client.getAcsResponse(request);
         } catch (ServerException e) {
             e.printStackTrace();
         } catch (ClientException e) {
